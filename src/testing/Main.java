@@ -4,7 +4,7 @@ import Containers.BagFIFO;
 import Containers.BagLIFO;
 import Containers.BagRandom;
 import Containers.IBag;
-import Factory.BagFactoryOptimizeAccess;
+import factory.BagFactoryOptimizeAccess;
 import giveSurprises.GiveSurpriseAndApplause;
 import giveSurprises.GiveSurpriseAndHug;
 import giveSurprises.GiveSurpriseAndSing;

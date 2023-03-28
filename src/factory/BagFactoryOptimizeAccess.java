@@ -1,4 +1,4 @@
-package Factory;
+package factory;
 
 import Containers.BagFIFO;
 import Containers.BagLIFO;

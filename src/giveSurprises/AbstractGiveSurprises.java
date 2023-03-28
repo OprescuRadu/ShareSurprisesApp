@@ -2,15 +2,13 @@ package giveSurprises;
 
 import Containers.IBag;
 import Containers.IPrint;
-import Factory.BagFactoryOptimizeStorage;
-import Factory.BagFactoryOptimizeAccess;
-import Factory.IBagFactory;
+import factory.BagFactoryOptimizeStorage;
+import factory.BagFactoryOptimizeAccess;
+import factory.IBagFactory;
 import surprises.ISurprise;
-import surprises.GatherSurprises;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.ArrayList;
 
 public abstract class AbstractGiveSurprises {
     private final IBag bag;
