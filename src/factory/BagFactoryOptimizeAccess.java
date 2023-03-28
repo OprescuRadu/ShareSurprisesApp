@@ -1,8 +1,8 @@
 package factory;
 
-import Containers.BagFIFO;
-import Containers.BagLIFO;
-import Containers.IBag;
+import containers.BagFIFO;
+import containers.BagLIFO;
+import containers.IBag;
 
 public class BagFactoryOptimizeAccess implements IBagFactory{
     private static BagFactoryOptimizeAccess bag = null;

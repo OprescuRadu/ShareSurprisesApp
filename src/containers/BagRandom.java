@@ -1,4 +1,4 @@
-package Containers;
+package containers;
 
 import random.RandomNo;
 import surprises.ISurprise;

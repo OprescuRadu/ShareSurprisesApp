@@ -1,9 +1,9 @@
 package testing;
 
-import Containers.BagFIFO;
-import Containers.BagLIFO;
-import Containers.BagRandom;
-import Containers.IBag;
+import containers.BagFIFO;
+import containers.BagLIFO;
+import containers.BagRandom;
+import containers.IBag;
 import factory.BagFactoryOptimizeAccess;
 import giveSurprises.GiveSurpriseAndApplause;
 import giveSurprises.GiveSurpriseAndHug;

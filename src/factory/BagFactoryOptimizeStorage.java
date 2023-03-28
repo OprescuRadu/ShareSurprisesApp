@@ -1,7 +1,7 @@
 package factory;
 
-import Containers.BagRandom;
-import Containers.IBag;
+import containers.BagRandom;
+import containers.IBag;
 
 public class BagFactoryOptimizeStorage implements IBagFactory {
     private static BagFactoryOptimizeStorage bag = null;

@@ -1,7 +1,5 @@
 package giveSurprises;
 
-import Containers.IPrint;
-
 public class GiveSurpriseAndHug extends AbstractGiveSurprises {
 
     public GiveSurpriseAndHug(String containerType, int waitTime) {

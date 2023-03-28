@@ -1,7 +1,7 @@
 package giveSurprises;
 
-import Containers.IBag;
-import Containers.IPrint;
+import containers.IBag;
+import containers.IPrint;
 import factory.BagFactoryOptimizeStorage;
 import factory.BagFactoryOptimizeAccess;
 import factory.IBagFactory;

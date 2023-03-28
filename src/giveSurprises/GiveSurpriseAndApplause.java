@@ -1,7 +1,5 @@
 package giveSurprises;
 
-import Containers.IPrint;
-
 public class GiveSurpriseAndApplause extends AbstractGiveSurprises {
     public GiveSurpriseAndApplause(String containerType, int waitTime) {
         super(containerType, waitTime);

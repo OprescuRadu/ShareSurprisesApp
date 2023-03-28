@@ -1,8 +1,7 @@
-package Containers;
+package containers;
 
 import surprises.ISurprise;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class BagLIFO implements IBag, IPrint{

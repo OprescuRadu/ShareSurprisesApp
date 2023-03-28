@@ -1,6 +1,6 @@
 package factory;
 
-import Containers.IBag;
+import containers.IBag;
 
 public interface IBagFactory {
 

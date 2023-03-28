@@ -1,12 +1,9 @@
 package surprises;
 
-import Containers.IBag;
 import random.RandomNo;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
 
 public final class GatherSurprises {
 
