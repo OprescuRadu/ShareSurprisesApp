@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class MinionToy implements ISurprise {
 
-    private String minionName;
+    private final String minionName;
     private static int count = -1;
     private static final ArrayList<String> minionList = new ArrayList<>(Arrays.asList("Dave", "Carl",
             "Kevin", "Stuart", "Jerry", "Tim"));
@@ -21,7 +21,7 @@ public class MinionToy implements ISurprise {
 
     @Override
     public void enjoy() {
-        System.out.printf("Congratulations! You got a minion named %s!", minionName);
+        System.out.printf("Congratulations! You got a minion named %s! ", minionName);
     }
 
     // The toys are chosen in order

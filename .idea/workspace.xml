@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2ee6974-2bb1-4df0-af18-a93aa9b1c32e" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShareSurprisesApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/BagFIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/BagLIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/BagRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/IBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/IPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/BagFactoryOptimizeAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/BagFactoryOptimizeStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/IBagFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/giveSurprises/AbstractGiveSurprises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/giveSurprises/GiveSurpriseAndApplause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/giveSurprises/GiveSurpriseAndHug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/giveSurprises/GiveSurpriseAndSing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/random/RandomNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/surprises/Candies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/surprises/Candies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/surprises/FortuneCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/surprises/FortuneCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/surprises/MinionToy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/surprises/MinionToy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NaRoMpg4ruFp7KDKz7dW1VP9to" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.Main" />
+      <module name="ShareSurprisesApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing.FIFOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.FIFOTest" />
+      <module name="ShareSurprisesApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing.LIFOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.LIFOTest" />
+      <module name="ShareSurprisesApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.testing.FIFOTest" />
+        <item itemvalue="Application.testing.LIFOTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2ee6974-2bb1-4df0-af18-a93aa9b1c32e" name="Changes" comment="" />
+      <created>1679900386106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679900386106</updated>
+      <workItem from="1679900389494" duration="56002000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1679950492024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679950492024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>

@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Candies implements ISurprise{
 
-    private String candyType;
+    private final String candyType;
     private int number;
     private static final ArrayList<String> candyList = new ArrayList<>(Arrays.asList("chocolate", "jelly",
             "fruits", "vanilla"));
@@ -25,15 +25,15 @@ public class Candies implements ISurprise{
 
     @Override
     public String toString() {
-        return String.format("[Candies] type = %s, number = %d,", candyType, number);
+        return String.format("[Candies] type = %s, number = %d", candyType, number);
     }
 
     @Override
     public void enjoy() {
-        System.out.printf("Yummy! You received %d %s candies%n", number, candyType);
+        System.out.printf("Yummy! You received %d %s candies! ", number, candyType);
     }
 
-    //The type and quantity are random
+    //The type and quantity are chosen randomly
     public static Candies generate(){
        int type =  RandomNo.getRandomNumber(candyList.size());
        int numberOfCandies = RandomNo.getRandomNumber(maxNumberOfCandies);

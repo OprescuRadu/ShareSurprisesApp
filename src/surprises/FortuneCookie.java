@@ -6,7 +6,7 @@ import random.RandomNo;
 
 public class FortuneCookie implements ISurprise {
 
-    private String message;
+    private final String message;
 
     private static final ArrayList<String> fortuneCookiesSayings = new ArrayList<>(Arrays.asList("You can make your own happiness.",
             "You already know the answer to the questions lingering inside your head.", "Wealth awaits you very soon.",
@@ -31,7 +31,7 @@ public class FortuneCookie implements ISurprise {
 
     @Override
     public void enjoy() {
-        System.out.printf("You got a fortune cookie! %n %s", message);
+        System.out.printf("You got a fortune cookie! %s ", message);
     }
 
 
