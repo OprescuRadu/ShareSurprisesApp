@@ -1,5 +1,5 @@
 # ShareSurprisesApp
-OOP application
+OOP application.
 
 Following the OOP principles this app is meant to manage a set of surprises. 
 
